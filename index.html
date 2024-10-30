@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,11 @@
     <script src="https://kit.fontawesome.com/fdf1b1500b.js" crossorigin="anonymous"></script>
 
     <style>
-
-
-        body{
+        body {
             background-color: rgba(25, 179, 127, 0.548);
         }
 
-        button{
+        button {
             border: none;
             border-radius: 30px;
             height: 23px;
@@ -21,14 +20,19 @@
             margin-left: 10px;
         }
 
-        input{
+        input {
             padding-left: 8px;
             outline: none;
+        }
+
+        .before-after {
+            display: block;
         }
     </style>
 
     <title>lista de exercicio</title>
 </head>
+
 <body>
     <h1>Questão 1:</h1>
     <div id="lista">
@@ -83,6 +87,36 @@
     <input type="password" placeholder="SENHA">
     <i onclick="mostrarSenha()" class="fa-solid fa-eye-low-vision"></i>
 
+    <h1>Questão 6:</h1>
+    <div id="lista4">
+        <ul>
+            <li>item A</li>
+            <li>item B</li>
+            <li>item C</li>
+            <li>item D</li>
+            <li>item E</li>
+        </ul>
+    </div>
+    <button onclick="corTexto()">Alterar cor</button>
+    <button onclick="textoNegrito()">Texto negrito</button>
+
+    <h1>Questão 7:</h1>
+    <div id="lista5">
+        <ul>
+            <li>item A</li>
+            <li>item B</li>
+            <li>item C</li>
+            <li>item D</li>
+            <li>item E</li>
+        </ul>
+    </div>
+    <div class="before-after">
+        <button onclick="btBefore()">Add before</button>
+        <button onclick="btAfter()">Add after</button>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
+
 </html>
