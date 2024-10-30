@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/fdf1b1500b.js" crossorigin="anonymous"></script>
+
+    <style>
+
+
+        body{
+            background-color: rgba(25, 179, 127, 0.548);
+        }
+
+        button{
+            border: none;
+            border-radius: 30px;
+            height: 23px;
+            margin-top: 8px;
+            margin-left: 10px;
+        }
+
+        input{
+            padding-left: 8px;
+            outline: none;
+        }
+    </style>
+
+    <title>lista de exercicio</title>
+</head>
+<body>
+    <h1>Questão 1:</h1>
+    <div id="lista">
+        <ul>
+            <li>item A</li>
+            <li>item B</li>
+            <li>item C</li>
+            <li>item D</li>
+            <li>item E</li>
+        </ul>
+    </div>
+    <button onclick="exibirFilhos()">Exibir filhos</button>
+
+    <h1>Questão 2:</h1>
+    <div id="lista1">
+        <ul>
+            <li>item A</li>
+            <li>item B</li>
+            <li>item C</li>
+            <li>item D</li>
+            <li>item E</li>
+        </ul>
+    </div>
+    <button onclick="alteraItem()">Alterar item</button>
+
+    <h1>Questão 3:</h1>
+    <div>
+        <ul id="lista2">
+            <li>item A</li>
+            <li>item B</li>
+            <li>item C</li>
+            <li>item D</li>
+            <li>item E</li>
+        </ul>
+    </div>
+    <button onclick="adicionaItem()">Adicionar item</button>
+
+    <h1>Questão 4:</h1>
+    <div id="lista3">
+        <ul>
+            <li>item A</li>
+            <li>item B</li>
+            <li>item C</li>
+            <li>item D</li>
+            <li>item E</li>
+        </ul>
+    </div>
+    <button onclick="adicionarItem()">Add item dinâmico</button>
+
+    <h1>Questão 5:</h1>
+
+    <input type="password" placeholder="SENHA">
+    <i onclick="mostrarSenha()" class="fa-solid fa-eye-low-vision"></i>
+
+    <script src="script.js"></script>
+</body>
+</html>
